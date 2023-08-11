@@ -1,0 +1,5 @@
+variable "accesskey" {
+}
+
+variable "secretkey" {
+}
