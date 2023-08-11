@@ -15,3 +15,7 @@ name = "CLI-workspace"
 resource "aws_iam_user" "terraclouduser" {
 name = "terraclouduser"
 }
+resource "aws_iam_group" "iam-group" {
+  name = "IAM-Group"
+}
+
