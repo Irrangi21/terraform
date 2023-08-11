@@ -8,12 +8,12 @@ cloud {
 organization = "Artifacts"
 
 workspaces {
-name = "CLI-workspace"
+name = "terraform-1"
 }
 }
 }
-resource "aws_iam_user" "terraclouduser" {
-name = "terraclouduser"
+resource "aws_iam_user" "terraclouduser-1" {
+name = "terraclouduser-1"
 }
 resource "aws_iam_group" "iam-group" {
   name = "IAM-Group"
